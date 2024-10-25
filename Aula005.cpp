@@ -7,8 +7,8 @@ using namespace std;
 int main()
 {
     int vidas = 3, tiros = 500, life = 100;
-    cout << pi;
-    nome
+    cout << pi "\n";
+    nome;
 
     return 0;
 }
