@@ -1,3 +1,5 @@
+// Variáveis múltiplas
+
 #include <iostream>
 using namespace std;
 
