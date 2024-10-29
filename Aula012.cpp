@@ -1,3 +1,5 @@
+// Operador ternário
+
 #include <iostream>
 using namespace std;
 
