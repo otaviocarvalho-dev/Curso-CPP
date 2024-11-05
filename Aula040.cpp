@@ -1,3 +1,5 @@
+// "printf" e "scanf"
+
 #include <iostream>
 #include <stdio.h>
 
