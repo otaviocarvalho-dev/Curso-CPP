@@ -1,23 +1,24 @@
-// 
+// Classes de armazenamento (auto, register, static)
 
 #include <iostream>
-#include "auxiliar.cpp"
-#include "variaveis.h"
+#include <vector>
 
 using namespace std;
 
-void impNum();
-
-int num{50};
-extern int valor;
+void somador(){
+    static auto i = 0; // <<< "static" paraliza o valor de variáveis 
+    i++;
+    cout << i<< "\n";
+}
 
 int main()
 {
-    impNum();
 
-    cout << valor << "\n";
+    vector<int>v{10, 20, 30, 40, 50, 60, 70};
 
-    cout << tmp << "\n";
+    for (register auto it = v.begin(); it != v.end(); it++){ // <<< "register" utiliza o registrador
+        cout << *it << "\n";
+    }
 
     return 0;
 }
