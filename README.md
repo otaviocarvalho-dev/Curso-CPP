@@ -1,2 +1,2 @@
 # Curso C++
-Programas das aulas do Curso C++ do canal CFBCursos, do Youtube.
+Programas das aulas do curso de C++, do canal CFBCursos, do Youtube.
